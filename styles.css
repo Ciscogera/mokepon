@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+body {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #FDFFB8;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: #FF2DD1 ;
+    font-size: 54px;
+}
+
+.subtitulo {
+    color: #FF2DD1;
+    font-size: 20px;
+
+}
+
+.tarjeta {
+    display: flex;
+    gap: 10px
+}
+.tarjeta-de-mokepon {
+    width: 184px;
+    height: 94px;
+    background-color: #63C8FF;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #83c4637d;
+    border-radius: 20px;
+    color: #FDFFB8;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+    margin: 2px;
+}
+
+input {
+    display: none
+}
+
+.boton-de-seleccion {
+    background-color: rgb(33, 26, 16);
+
+}
